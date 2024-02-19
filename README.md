@@ -3,13 +3,19 @@
 </div>
 
 ## About
-This is my first ever Python project published to GitHub. It's mainly a proof of concept having learnt lots of different skills.
+- This is my first ever Python project published to GitHub. It's mainly a proof of concept having learnt lots of different skills.
 
-UbuntuDash has an (albeit basic) custom module for fetching CPU% and Mem% data via Bash commands.
+- UbuntuDash has an (albeit basic) custom module for fetching CPU% and Mem% data via Bash commands.
+
+- The chart logs every 5 seconds for a total of 5 minutes of history (similar to Windows 10's task manager).
+
 
 ![Ver 1 0 0](https://github.com/flonel/UbuntuDash/assets/135614626/af7aeeeb-ea22-42a9-a45a-f36233c4469a)
 
 ## Dependencies:
+
+- UbuntuDash was developed for Ubuntu Server 20.04 LTS (but hopefully will run on any Linux distro).
+
 [**Flask:**](https://flask.palletsprojects.com/en/3.0.x/)
 
 ```
@@ -38,6 +44,9 @@ $ python3 main.py
 Then, within a browser, head to: 
 
 `127.0.0.1:8000/home`
+
+_**Due to the synchronous nature of this app, use F5 or refresh to fetch the latest data / graph.**_
+
 
 To kill the server, simply push: 
 
