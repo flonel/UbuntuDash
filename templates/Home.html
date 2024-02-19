@@ -1,0 +1,19 @@
+<!-- Home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1"> IF YOU WANT IT TO AUTO-UPDATE -->
+    <title>UbuntuDash</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <p>CPU % UTILISATION IS: {{ fiveMinCPU }}%. AT TIME: {{ fiveMinCPUTime }}</p>
+    <p>MEMORY % UTILISATION IS: {{ fiveMinMem }}%. AT TIME: {{ fiveMinMemTime }}</p>
+    <div>
+        <img src="{{ url_for('static', filename='images/plot.svg') }}">
+    </div>
+</body>
+</html>
