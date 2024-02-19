@@ -47,6 +47,8 @@ Then, within a browser, head to:
 
 _**Due to the synchronous nature of this app, use F5 or refresh to fetch the latest data / graph.**_
 
+_**OR, uncomment line 8 within templates/Home.html to have the page refresh automatically.**_
+
 
 To kill the server, simply push: 
 
