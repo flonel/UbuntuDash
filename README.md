@@ -1,5 +1,5 @@
 <div align="center">
-	<h3>UbuntuDash is a lightweight, synchronous Flask dashboard for Linux utilising an SQLite database.</h3>
+	<h3>UbuntuDash is a lightweight, semi-synchronous Flask dashboard for Linux utilising an SQLite database.</h3>
 </div>
 
 ## About Ver 1.0.0
