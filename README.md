@@ -2,7 +2,7 @@
 	<h3>UbuntuDash is a lightweight, synchronous Flask dashboard for Linux utilising an SQLite database.</h3>
 </div>
 
-## About
+## About Ver 1.0.0
 - This is my first ever Python project published to GitHub. It's mainly a proof of concept having learnt lots of different skills.
 
 - UbuntuDash has an (albeit basic) custom module for fetching CPU% and Mem% data via Bash commands.
@@ -50,9 +50,11 @@ _**Due to the synchronous nature of this app, use F5 or refresh to fetch the lat
 _**OR, uncomment line 8 within templates/Home.html to have the page refresh automatically.**_
 
 
-To kill the server, simply push: 
+To kill the server from a terminal, simply push: 
 
 ⠀>>> <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+Otherwise just kill the Python processes.
 
 ## Disclaimer
 Please note that this project features no consideration for security. This app is provided as-is, without any warranty or guarantee of its performance or suitability for any specific purpose.
