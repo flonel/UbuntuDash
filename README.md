@@ -14,7 +14,7 @@
 
 ## Dependencies:
 
-- UbuntuDash was developed for Ubuntu Server 20.04 LTS (but hopefully will run on any Linux distro).
+- UbuntuDash was developed for Ubuntu Server 20.04 LTS (but will run on any Linux distro theoretically).
 
 [**Flask:**](https://flask.palletsprojects.com/en/3.0.x/)
 
