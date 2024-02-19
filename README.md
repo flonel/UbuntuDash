@@ -12,7 +12,7 @@
 
 ![Ver 1 0 0](https://github.com/flonel/UbuntuDash/assets/135614626/af7aeeeb-ea22-42a9-a45a-f36233c4469a)
 
-## Dependencies:
+## Dependencies
 
 - UbuntuDash was developed for Ubuntu Server 20.04 LTS (but will run on any Linux distro theoretically).
 
