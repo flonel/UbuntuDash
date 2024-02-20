@@ -1,7 +1,3 @@
-<div align="center">
-	<h3>UbuntuDash is a lightweight, semi-synchronous Flask dashboard for Linux utilising an SQLite database.</h3>
-</div>
-
 ## About Ver 1.0.0
 - This is my first ever Python project published to GitHub. It's mainly a proof of concept having learnt lots of different skills.
 
