@@ -1,7 +1,7 @@
 ## About Ver 1.0.0
 - This is my first ever Python project published to GitHub. It's mainly a proof of concept having learnt lots of different skills.
 
-- UbuntuDash has an (albeit basic) custom module for fetching CPU% and Mem% data via Bash commands.
+- UbuntuDash has a (albeit basic) custom module for fetching CPU% and Mem% data via Bash commands.
 
 - The chart logs every 5 seconds for a total of 5 minutes of history (similar to Windows 10's task manager).
 
@@ -12,19 +12,19 @@
 
 - UbuntuDash was developed for Ubuntu Server 20.04 LTS (but will run on any Linux distro theoretically).
 
-[**Flask:**](https://flask.palletsprojects.com/en/3.0.x/)
+[**Flask**](https://flask.palletsprojects.com/en/3.0.x/) **for running a webserver:**
 
 ```
 $ pip install Flask
 ```
 
-[**Matplotlib:**](https://matplotlib.org/stable/index.html)
+[**Matplotlib**](https://matplotlib.org/stable/index.html) **for plotting charts:**
 
 ```
 $ pip install matplotlib
 ```
 
-[**SQLite3:**](https://docs.python.org/3/library/sqlite3.html)
+[**SQLite3**](https://docs.python.org/3/library/sqlite3.html) **for storing in a database:**
 
 ```
 $ sudo apt install sqlite3
