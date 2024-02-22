@@ -12,7 +12,7 @@
 
 - UbuntuDash was developed for Ubuntu Server 20.04 LTS (but will run on any Linux distro theoretically).
 
-[**Flask**](https://flask.palletsprojects.com/en/3.0.x/) **for running a webserver:**
+[**Flask**](https://flask.palletsprojects.com/en/3.0.x/) **for handling webserver / routes:**
 
 ```
 $ pip install Flask
