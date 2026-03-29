@@ -65,7 +65,7 @@ if __name__ == '__main__':
     try:
         process = subprocess.Popen(("python3", "dbExec.py"), shell=False)
         time.sleep(3) #small delay while dbExec creates directories and initialises etc.
-        app.run(host='127.0.0.1', port=8000, debug=False)
+        app.run(host='0.0.0.0', port=8000, debug=False) #originally 127.0.0.1, but Docker port publishing will be annoying because Flask is only listening on loopback inside the container
     except KeyboardInterrupt: #dbExec will end at the same time as main.py
         if process is not None:
             process.terminate()
