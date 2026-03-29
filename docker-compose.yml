@@ -1,0 +1,7 @@
+services:
+  ubuntudash:
+    build: .
+    container_name: ubuntudash
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
