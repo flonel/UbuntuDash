@@ -58,6 +58,7 @@ def plot(cpu, mem, cpuTime, memTime):
     ax.set_ylim(0, 100)
     ax.margins(0, 0)
     plt.savefig(os.path.join("static", "images", "plot.svg"), bbox_inches="tight") #bbox arg is for removing white space around the plot
+    plt.close(fig)
 
 if __name__ == '__main__':
     print("UbuntuDash is running.\nPUSH CTRL + C TO END\nPUSH CTRL + C TO END\nPUSH CTRL + C TO END\n")
