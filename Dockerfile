@@ -1,19 +1,14 @@
 FROM python:3.9-slim
 
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-
 WORKDIR /app
+
+COPY . .
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     procps \
-    grep \
-    && rm -rf /var/lib/apt/lists/*
+    grep 
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
+RUN pip install -r requirements.txt
 
 RUN mkdir -p static/images
 
