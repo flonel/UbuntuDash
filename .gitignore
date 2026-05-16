@@ -4,4 +4,5 @@
 /pyvenv.cfg
 /share
 /lib64
+/__pycache__
 UbuntuDash.code-workspace
